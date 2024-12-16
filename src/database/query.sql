@@ -1,0 +1,12 @@
+CREATE DATABASE Test;
+
+USE Test;
+
+CREATE TABLE user(
+    id INT AUTOINCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    age INT
+);
+
+SELECT * FROM user;
